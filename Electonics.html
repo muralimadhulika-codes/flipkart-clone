@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Offers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .image{
+            height: 25px;
+            width: 25px;
+            background-size: cover;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .product {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 200px;
+            margin: 20px;
+            text-align: center;
+            padding: 10px;
+            transition: transform 0.2s;
+        }
+        .product:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .product img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .product h2 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .product p {
+            font-size: 16px;
+            color: #555;
+        }
+        .price {
+            font-size: 20px;
+            color: #e91e63;
+        }
+        .old-price {
+            text-decoration: line-through;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Electronics</h1>
+<div class="container">
+    <div class="product">
+        <img src="https://aaravmart.com/wp-content/uploads/2019/09/LG-8.0-kg-Inverter-Fully-Automatic-Front-Loading-Washing-Machine-front.jpg" alt="Item 1">
+        <h2>Washing machine</h2>
+        <p class="price">₹29,999 <span class="old-price">₹33,299</span></p>
+    </div>
+
+    <div class="product">
+        <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6511/6511565cv13d.jpg" alt="Item 2">
+        <h2>refrigetor</h2>
+        <p class="price">₹25,499 <span class="old-price">₹30,999</span></p>
+    </div>
+
+    <div class="product">
+        <img src="https://tse3.mm.bing.net/th?id=OIP.zHaYcjaS8ITlEAHZvMUP_QHaEB&pid=Api&P=0&h=180" alt="Item 3">
+        <h2>Air conditioner</h2>
+        <p class="price">₹699 <span class="old-price">₹899</span></p>
+    </div>
+    <div class="product">
+        <img src="https://images.homedepot-static.com/productImages/fe4959c5-c953-495c-8e7a-13ae528f00af/svn/off-white-and-gray-luma-comfort-portable-evaporative-coolers-ec220w-64_600.jpg" alt="Item 3">
+        <h2>cooler</h2>
+        <p class="price">₹9,999 <span class="old-price">₹12,999</span></p>
+    </div>
+    <div class="product">
+        <img src="https://tse3.mm.bing.net/th?id=OIP.1oUuvRilJL_ANraGqE_lyQAAAA&pid=Api&P=0&h=180" alt="Item 3">
+        <h2>Fan</h2>
+        <p class="price">₹1,699 <span class="old-price">₹1,999</span></p>
+    </div>
+    <div class="product">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.V8IfltSXQJTw5nIG3VbOIwHaHJ&pid=Api&P=0&h=180" alt="Item 3">
+        <h2>Vaccum cleaner</h2>
+        <p class="price">₹4,999 <span class="old-price">₹6,999</span></p>
+    </div>
+    <div class="product">
+        <img src="https://www.health.com/thmb/uEq7WPnBoFjSoSsbE3FNtUhGZyA=/7130x0/filters:no_upscale():max_bytes(150000):strip_icc()/hlt-primary-oral-b-electric-toothbrushes-jkim-0395-c20e4ef1b2c4478ba57fc06a54d22d96.jpg" alt="Item 3">
+        <h2>electric tooth brush</h2>
+        <p class="price">₹1,499 <span class="old-price">₹1,999</span></p>
+    </div>
+    <div class="product">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/22/3-Tasten-Maus_Microsoft.jpg" alt="Item 3">
+        <h2>mouse</h2>
+        <p class="price">₹699 <span class="old-price">₹999</span></p>
+    </div>
+
+    <!-- Add more products as needed -->
+</div>
+
+</body>
+</html>

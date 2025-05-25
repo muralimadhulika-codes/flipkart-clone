@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Offers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .image{
+            height: 25px;
+            width: 25px;
+            background-size: cover;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .product {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 200px;
+            margin: 20px;
+            text-align: center;
+            padding: 10px;
+            transition: transform 0.2s;
+        }
+        .product:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .product img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .product h2 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .product p {
+            font-size: 16px;
+            color: #555;
+        }
+        .price {
+            font-size: 20px;
+            color: #e91e63;
+        }
+        .old-price {
+            text-decoration: line-through;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Top Offers</h1>
+<div class="container">
+    <div class="product">
+        <img src="https://www.91-cdn.com/hub/wp-content/uploads/2023/10/image5.png" alt="Item 1">
+        <h2>Laptops</h2>
+        <p class="price">₹999 <span class="old-price">₹1,299</span></p>
+    </div>
+
+    <div class="product">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.g29OVb0eOmiJXh3luTtoGAHaEs&pid=Api&P=0&h=180" alt="Item 2">
+        <h2>Books</h2>
+        <p class="price">₹2,499 <span class="old-price">₹2,999</span></p>
+    </div>
+
+    <div class="product">
+        <img src="https://cdn.wowdeals.me/uploads/catalogues/issues/11/51799/cover/551x752/1691248150.jpg" alt="Item 3">
+        <h2>Home essentials</h2>
+        <p class="price">₹699 <span class="old-price">₹999</span></p>
+    </div>
+    <div class="product">
+        <img src="https://cdn.dribbble.com/users/2073894/screenshots/13486402/media/eac9dbf93292e11e73a6f138873c0515.jpg" alt="Item 3">
+        <h2>Skin care</h2>
+        <p class="price">₹699 <span class="old-price">₹999</span></p>
+    </div>
+    <div class="product">
+        <img src="https://i.pinimg.com/originals/c6/99/55/c69955d6a6157ae13f8aa01b25846ca3.jpg" alt="Item 3">
+        <h2>Stationary</h2>
+        <p class="price">₹699 <span class="old-price">₹999</span></p>
+    </div>
+    <div class="product">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.zAIJS3D2azPgAP7X0jjCRwHaDd&pid=Api&P=0&h=180" alt="Item 3">
+        <h2>Gadgets</h2>
+        <p class="price">₹699 <span class="old-price">₹999</span></p>
+    </div>
+    <div class="product">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.aq3h252i3ycmRddy5DFTNgHaEK&pid=Api&P=0&h=180" alt="Item 3">
+        <h2>washing machine</h2>
+        <p class="price">₹699 <span class="old-price">₹999</span></p>
+    </div>
+    <div class="product">
+        <img src="https://sslimages.shoppersstop.com/sys-master/root/h15/h0d/12268840419358/banner_00_2000x600_TRADITIONALWEAR_EN_2000W_20190131.jpg" alt="Item 3">
+        <h2>dresses</h2>
+        <p class="price">₹699 <span class="old-price">₹999</span></p>
+    </div>
+    
+    <!-- Add more products as needed -->
+</div>
+
+</body>
+</html>

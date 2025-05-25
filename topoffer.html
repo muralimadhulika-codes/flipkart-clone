@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Offers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .image{
+            height: 25px;
+            width: 25px;
+            background-size: cover;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .product {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 200px;
+            margin: 20px;
+            text-align: center;
+            padding: 10px;
+            transition: transform 0.2s;
+        }
+        .product:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .product img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .product h2 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .product p {
+            font-size: 16px;
+            color: #555;
+        }
+        .price {
+            font-size: 20px;
+            color: #e91e63;
+        }
+        .old-price {
+            text-decoration: line-through;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Top Offers</h1>
+<div class="container">
+    <div class="product">
+        <img src="https://rukminim1.flixcart.com/image/832/832/kqqykcw0/sunscreen/t/f/i/sun-expert-ultra-matte-gel-sunscreen-50-lakme-original-imag4zxsqng6whs5.jpeg?q=70" alt="Item 1">
+        <h2>Sunscreen</h2>
+        <p class="price">₹999 <span class="old-price">₹1,299</span></p>
+    </div>
+
+    <div class="product">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.BuRxryEA3ugwF14wzDs0IwHaE8&pid=Api&P=0&h=180" alt="Item 2">
+        <h2>perfume</h2>
+        <p class="price">₹2,499 <span class="old-price">₹2,999</span></p>
+    </div>
+
+    <div class="product">
+        <img src="https://rukminim1.flixcart.com/image/416/416/l15bxjk0/portable-laptop-table/y/v/v/40-mfb-melamine-fiberboard-smart-multi-purpose-laptop-table-with-original-imagcrvmkwp9gzcf.jpeg?q=70" alt="Item 3">
+        <h2>Laptop table</h2>
+        <p class="price">₹699 <span class="old-price">₹999</span></p>
+    </div>
+    <div class="product">
+        <img src="https://tse3.mm.bing.net/th?id=OIP.wPFKLS1MmkokXXBGUzo0RAHaEI&pid=Api&P=0&h=180" alt="Item 3">
+        <h2>Shoes</h2>
+        <p class="price">₹699 <span class="old-price">₹999</span></p>
+    </div>
+    <div class="product">
+        <img src="https://rukminim2.flixcart.com/image/832/832/xif0q/lunch-box/a/2/x/1800-pro-lunch-box-3-containers-1-chutney-dabba-1-bottle-spoon-original-imagt3rd8bqmbzqz.jpeg?q=70&crop=false" alt="Item 3">
+        <h2>Miltonset</h2>
+        <p class="price">₹699 <span class="old-price">₹999</span></p>
+    </div>
+    <div class="product">
+        <img src="https://m.media-amazon.com/images/I/61S9aVnRZDL._SL1500_.jpg" alt="Item 3">
+        <h2>watch</h2>
+        <p class="price">₹699 <span class="old-price">₹999</span></p>
+    </div>
+    <div class="product">
+        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/d6fa3036138625.57105b210b14d.jpg" alt="Item 3">
+        <h2>baby products</h2>
+        <p class="price">₹699 <span class="old-price">₹999</span></p>
+    </div>
+    <div class="product">
+        <img src="https://images.squarespace-cdn.com/content/v1/5e45846ad255662c58b254f2/1598826066506-I0KUJDLWCBIJU87V40YV/108+Dharma+Dress+Project+1+.jpg" alt="Item 3">
+        <h2>dresses</h2>
+        <p class="price">₹699 <span class="old-price">₹999</span></p>
+    </div>
+    
+    <!-- Add more products as needed -->
+</div>
+
+</body>
+</html>

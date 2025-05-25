@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Offers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .image{
+            height: 25px;
+            width: 25px;
+            background-size: cover;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .product {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 200px;
+            margin: 20px;
+            text-align: center;
+            padding: 10px;
+            transition: transform 0.2s;
+        }
+        .product:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .product img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .product h2 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .product p {
+            font-size: 16px;
+            color: #555;
+        }
+        .price {
+            font-size: 20px;
+            color: #e91e63;
+        }
+        .old-price {
+            text-decoration: line-through;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+
+<h1>TELEVISIONS</h1>
+<div class="container">
+    <div class="product">
+        <img src="https://www.bhphotovideo.com/images/images2500x2500/lg_28lf4520_28_720p_led_tv_1119827.jpg" alt="Item 1">
+        <h2></h2>
+        <p class="price">₹69,999 <span class="old-price">₹89,299</span></p>
+    </div>
+
+    <div class="product">
+        <img src="https://m.media-amazon.com/images/I/8101XGsOdTL.jpg" alt="Item 2">
+        <h2></h2>
+        <p class="price">₹1,00,900 <span class="old-price">₹1,22,999</span></p>
+    </div>
+
+    <div class="product">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.zINnoYrXU7t_QgVVj6HE6AHaHa&pid=Api&P=0&h=180" alt="Item 3">
+        <h2></h2>
+        <p class="price">₹78,699 <span class="old-price">₹99,999</span></p>
+    </div>
+    <div class="product">
+        <img src="https://images.firstpost.com/wp-content/uploads/2020/04/vu-tv-1280.jpg"alt="Item 3">
+        <h2></h2>
+        <p class="price">₹69,699 <span class="old-price">₹89,999</span></p>
+    </div>
+    <div class="product">
+        <img src="https://img.us.news.samsung.com/us/wp-content/uploads/2023/02/06144517/QN77S95CAFXZA_Front1-scaled.jpg" alt="Item 3">
+        <h2></h2>
+        <p class="price">₹67,699 <span class="old-price">₹78,999</span></p>
+    </div>
+    <div class="product">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.RBMNWBbT_u6hVizUb98FKQAAAA&pid=Api&P=0&h=180" alt="Item 3">
+        <h2></h2>
+        <p class="price">₹31,699 <span class="old-price">₹34,999</span></p>
+    </div>
+    <div class="product">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.uQr61CxqDNI7GQ61bsd7XwHaE8&pid=Api&P=0&h=180" alt="Item 3">
+        <h2></h2>
+        <p class="price">₹59,699 <span class="old-price">₹67,999</span></p>
+    </div>
+    <div class="product">
+        <img src="https://www.homenish.com/wp-content/uploads/2020/12/Curved-768x686.jpg" alt="Item 3">
+        <h2></h2>
+        <p class="price">₹68,699 <span class="old-price">₹78,999</span></p>
+    </div>
+
+    <!-- Add more products as needed -->
+</div>
+
+</body>
+</html>

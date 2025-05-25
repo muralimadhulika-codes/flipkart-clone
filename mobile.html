@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Offers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .image{
+            height: 25px;
+            width: 25px;
+            background-size: cover;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .product {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 200px;
+            margin: 20px;
+            text-align: center;
+            padding: 10px;
+            transition: transform 0.2s;
+        }
+        .product:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .product img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .product h2 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .product p {
+            font-size: 16px;
+            color: #555;
+        }
+        .price {
+            font-size: 20px;
+            color: #e91e63;
+        }
+        .old-price {
+            text-decoration: line-through;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Mobiles and tablets</h1>
+<div class="container">
+    <div class="product">
+        <img src="https://www.sammobile.com/wp-content/uploads/2014/06/Image-Galaxy-Tab-S-10.5-inch_6.jpg" alt="Item 1">
+        <h2>Samsung Galaxy tablet</h2>
+        <p class="price">₹999 <span class="old-price">₹1,299</span></p>
+    </div>
+
+    <div class="product">
+        <img src="https://www.macobserver.com/wp-content/uploads/2024/02/Apple-iPhone-16-Pro.jpg" alt="Item 2">
+        <h2>Iphone 16 ultra</h2>
+        <p class="price">₹1,49,900 <span class="old-price">₹2,999</span></p>
+    </div>
+
+    <div class="product">
+        <img src="https://www.bhphotovideo.com/images/images2500x2500/sony_mdr100abn_p_h_ear_on_wireless_nc_1220500.jpg" alt="Item 3">
+        <h2>Headset</h2>
+        <p class="price">₹699 <span class="old-price">₹999</span></p>
+    </div>
+    <div class="product">
+        <img src="https://coobetter.co/wp-content/uploads/2021/11/1-2.jpg"alt="Item 3">
+        <h2>Blue tooth</h2>
+        <p class="price">₹699 <span class="old-price">₹999</span></p>
+    </div>
+    <div class="product">
+        <img src="https://www.sammobile.com/wp-content/uploads/2023/01/Galaxy-A14-5G.jpg" alt="Item 3">
+        <h2>S23 series</h2>
+        <p class="price">₹699 <span class="old-price">₹999</span></p>
+    </div>
+    <div class="product">
+        <img src="https://www.gizmochina.com/wp-content/uploads/2024/03/Realme-Narzo-70-Pro-5G-Featured-1024x683.jpeg" alt="Item 3">
+        <h2>Narzo series</h2>
+        <p class="price">₹699 <span class="old-price">₹999</span></p>
+    </div>
+    <div class="product">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.FM3UWphocu9X8A0p04p9BgHaEp&pid=Api&P=0&h=180" alt="Item 3">
+        <h2>Nothing phone 1</h2>
+        <p class="price">₹699 <span class="old-price">₹999</span></p>
+    </div>
+    <div class="product">
+        <img src="https://cdn.eftm.com/wp-content/uploads/2023/01/oneplus-11-.jpg" alt="Item 3">
+        <h2>Oneplus</h2>
+        <p class="price">₹699 <span class="old-price">₹999</span></p>
+    </div>
+
+    <!-- Add more products as needed -->
+</div>
+
+</body>
+</html>

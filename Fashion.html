@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Offers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .image{
+            height: 25px;
+            width: 25px;
+            background-size: cover;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .product {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 200px;
+            margin: 20px;
+            text-align: center;
+            padding: 10px;
+            transition: transform 0.2s;
+        }
+        .product:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .product img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .product h2 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .product p {
+            font-size: 16px;
+            color: #555;
+        }
+        .price {
+            font-size: 20px;
+            color: #e91e63;
+        }
+        .old-price {
+            text-decoration: line-through;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Fashion</h1>
+<div class="container">
+    <div class="product">
+        <img src="https://d2x02matzb08hy.cloudfront.net/img/clothing/hero_image/781214966/Untitled_design__40_.jpg" alt="Item 1">
+        <h2>Kurtas and sets</h2>
+        <p class="price">₹999 <span class="old-price">₹1,299</span></p>
+    </div>
+
+    <div class="product">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.dXF4uoeHPTa6wt2RoCnTuwAAAA&pid=Api&P=0&h=180" alt="Item 2">
+        <h2>Sarees</h2>
+        <p class="price">₹2,499 <span class="old-price">₹2,999</span></p>
+    </div>
+
+    <div class="product">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.Tq01OLeGuEZ1wAklKRJz7AHaEK&pid=Api&P=0&h=180" alt="Item 3">
+        <h2>Denims</h2>
+        <p class="price">₹699 <span class="old-price">₹999</span></p>
+    </div>
+    <div class="product">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.ZM3coOIv9Ds6Akm1HVvx1AHaJ4&pid=Api&P=0&h=180" alt="Item 3">
+        <h2>T-shirts</h2>
+        <p class="price">₹699 <span class="old-price">₹999</span></p>
+    </div>
+    <div class="product">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.L4cVh1jI5jvGUNwjTpaM8gHaJ4&pid=Api&P=0&h=180" alt="Item 3">
+        <h2>Top-wear</h2>
+        <p class="price">₹699 <span class="old-price">₹999</span></p>
+    </div>
+    <div class="product">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.-aQV7_x5qR-kCYMOMq7QtwHaJ4&pid=Api&P=0&h=180" alt="Item 3">
+        <h2>Dresses</h2>
+        <p class="price">₹699 <span class="old-price">₹999</span></p>
+    </div>
+    <div class="product">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.KxUaHW9BjCwz1Vyl6C4h1QHaE8&pid=Api&P=0&h=180" alt="Item 3">
+        <h2>Active wear</h2>
+        <p class="price">₹699 <span class="old-price">₹999</span></p>
+    </div>
+    <div class="product">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.XHDo_a8_FLgkv9iL3XGnNgHaEn&pid=Api&P=0&h=180" alt="Item 3">
+        <h2>Gym wear</h2>
+        <p class="price">₹699 <span class="old-price">₹999</span></p>
+    </div>
+
+    <!-- Add more products as needed -->
+</div>
+
+</body>
+</html>
